@@ -5,7 +5,7 @@ import os
 from setuptools import find_packages, setup
 
 install_requires = [
-    "torch>=1.11.0",
+    "torch<2.7",
     "matplotlib",
     "numpy",  # Due to pandas incompatibility
     "scipy",
